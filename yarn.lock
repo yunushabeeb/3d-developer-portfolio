@@ -2043,11 +2043,6 @@ react-router@7.0.1:
     set-cookie-parser "^2.6.0"
     turbo-stream "2.4.0"
 
-react-tilt@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-tilt/-/react-tilt-1.0.2.tgz#89e1749939275204ebbc04565778abf972196cbe"
-  integrity sha512-21tUUsmuw5id/6NDtKqwYTG4taVnw+BoUwIG6YsgPC9GI6cx4BnBuSqgriQYAYcv3bdGNzecaBL+rvQRAm28bg==
-
 react-vertical-timeline-component@^3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/react-vertical-timeline-component/-/react-vertical-timeline-component-3.6.0.tgz#aeb4b56be3f397b493c847df79521f3bfb3aab71"

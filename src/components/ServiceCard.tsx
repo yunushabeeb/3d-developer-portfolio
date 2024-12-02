@@ -1,16 +1,8 @@
 import { motion } from 'framer-motion';
-import { Tilt } from 'react-tilt';
+import Tilt from 'react-parallax-tilt'; // Updated import
 import { fadeIn } from '../utils/motions';
 
-const ServiceCard = ({
-  index,
-  title,
-  icon,
-}: {
-  index: number;
-  title: string;
-  icon: string;
-}) => (
+const ServiceCard: React.FC<ServiceCardProps> = ({ index, title, icon }) => (
   <Tilt
     tiltMaxAngleX={45}
     tiltMaxAngleY={45}
@@ -25,7 +17,7 @@ const ServiceCard = ({
       <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <img
           src={icon}
-          alt="web-development"
+          alt={title.toLowerCase().replace(/\s+/g, '-')}
           className="w-16 h-16 object-contain"
         />
 
