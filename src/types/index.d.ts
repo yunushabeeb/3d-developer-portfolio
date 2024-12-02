@@ -24,3 +24,12 @@ declare interface ServiceCardProps {
   title: string;
   icon: string;
 }
+
+declare interface FeedbackCardProps {
+  index: number;
+  testimonial: string;
+  name: string;
+  designation: string;
+  company: string;
+  image: string;
+}
