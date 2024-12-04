@@ -6,7 +6,7 @@ import CanvasLoader from '../Loader'; // Importing a custom loader component tha
 
 // Computers component responsible for rendering the 3D model of a computer
 const Computers = ({ isMobile }: { isMobile: boolean }) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf'); // Using useGLTF hook to load a 3D model (the desktop PC)
+  const computer = useGLTF('/desktop_pc/scene.gltf'); // Using useGLTF hook to load a 3D model (the desktop PC)
 
   return (
     <mesh>

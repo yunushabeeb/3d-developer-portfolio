@@ -6,7 +6,7 @@ import CanvasLoader from '../Loader'; // Import a custom loader to be displayed 
 
 // Earth component to render the 3D Earth model
 const Earth = () => {
-  const earth = useGLTF('./planet/scene.gltf'); // Load the Earth model from the specified path using useGLTF hook
+  const earth = useGLTF('/planet/scene.gltf'); // Load the Earth model from the specified path using useGLTF hook
 
   return (
     <primitive
