@@ -7,7 +7,7 @@ const CanvasLoader = () => {
   const { progress } = useProgress();
 
   return (
-    // Html component to render HTML inside the 3D canvas (positioned at the center)
+    // Html component to render HTML inside the 3D canvas (positioned at the center
     <Html
       as="div" // Specifies the HTML tag to use for the loader container
       center // Ensures the loader is centered within the canvas

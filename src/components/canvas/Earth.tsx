@@ -34,7 +34,6 @@ const EarthCanvas = () => {
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        {' '}
         {/* Show the CanvasLoader component while the Earth model is being loaded */}
         {/* OrbitControls allow the user to interact with the scene by rotating, zooming, and panning */}
         <OrbitControls
