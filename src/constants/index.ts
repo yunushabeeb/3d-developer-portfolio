@@ -1,3 +1,4 @@
+// Importing assets like images and icons
 import {
   mobile,
   backend,
@@ -25,102 +26,119 @@ import {
   threejs,
 } from '../assets';
 
+// Navigation links for the website sections
 export const navLinks = [
   {
-    id: 'about',
+    id: 'about', // About section
     title: 'About',
   },
   {
-    id: 'work',
+    id: 'work', // Work section
     title: 'Work',
   },
   {
-    id: 'contact',
+    id: 'contact', // Contact section
     title: 'Contact',
   },
 ];
 
+// Services offered by the developer, each with a title and icon
 const services = [
   {
-    title: 'Web Developer',
-    icon: web,
+    title: 'Web Developer', // Title of the service
+    icon: web, // Icon for the service
   },
   {
-    title: 'React Native Developer',
-    icon: mobile,
+    title: 'React Native Developer', // Title of the service
+    icon: mobile, // Icon for the service
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'Backend Developer', // Title of the service
+    icon: backend, // Icon for the service
   },
   {
-    title: 'Content Creator',
-    icon: creator,
+    title: 'Content Creator', // Title of the service
+    icon: creator, // Icon for the service
   },
 ];
 
+// Technologies known by the developer, with name and associated icon
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'HTML 5', // Technology name
+    icon: html, // Icon for the technology
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'CSS 3', // Technology name
+    icon: css, // Icon for the technology
   },
   {
-    name: 'JavaScript',
-    icon: javascript,
+    name: 'JavaScript', // Technology name
+    icon: javascript, // Icon for the technology
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'TypeScript', // Technology name
+    icon: typescript, // Icon for the technology
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: 'React JS', // Technology name
+    icon: reactjs, // Icon for the technology
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Redux Toolkit', // Technology name
+    icon: redux, // Icon for the technology
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Tailwind CSS', // Technology name
+    icon: tailwind, // Icon for the technology
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'Node JS', // Technology name
+    icon: nodejs, // Icon for the technology
   },
   {
-    name: 'MongoDB',
-    icon: mongodb,
+    name: 'MongoDB', // Technology name
+    icon: mongodb, // Icon for the technology
   },
   {
-    name: 'Three JS',
-    icon: threejs,
+    name: 'Three JS', // Technology name
+    icon: threejs, // Icon for the technology
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'git', // Technology name
+    icon: git, // Icon for the technology
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'figma', // Technology name
+    icon: figma, // Icon for the technology
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'docker', // Technology name
+    icon: docker, // Icon for the technology
   },
 ];
 
+// Experience of the developer with titles, company names, dates, and responsibilities
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: 'React.js Developer', // Job title
+    company_name: 'Starbucks', // Company name
+    icon: starbucks, // Icon representing the company
+    iconBg: '#383E56', // Background color for the icon
+    date: 'March 2020 - April 2021', // Duration of the job
+    points: [
+      'Developing and maintaining web applications using React.js and other related technologies.', // Responsibility 1
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.', // Responsibility 2
+      'Implementing responsive design and ensuring cross-browser compatibility.', // Responsibility 3
+      'Participating in code reviews and providing constructive feedback to other developers.', // Responsibility 4
+    ],
+  },
+  {
+    title: 'React Native Developer', // Job title
+    company_name: 'Tesla', // Company name
+    icon: tesla, // Icon representing the company
+    iconBg: '#E6DEDD', // Background color for the icon
+    date: 'Jan 2021 - Feb 2022', // Duration of the job
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -129,11 +147,11 @@ const experiences = [
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    title: 'Web Developer', // Job title
+    company_name: 'Shopify', // Company name
+    icon: shopify, // Icon representing the company
+    iconBg: '#383E56', // Background color for the icon
+    date: 'Jan 2022 - Jan 2023', // Duration of the job
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -142,24 +160,11 @@ const experiences = [
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    title: 'Full stack Developer', // Job title
+    company_name: 'Meta', // Company name
+    icon: meta, // Icon representing the company
+    iconBg: '#E6DEDD', // Background color for the icon
+    date: 'Jan 2023 - Present', // Duration of the job
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -169,96 +174,98 @@ const experiences = [
   },
 ];
 
+// Testimonials from clients or colleagues, with the testimonial text, name, designation, company, and image
 const testimonials = [
   {
     testimonial:
       'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    name: 'Sara Lee', // Name of the person
+    designation: 'CFO', // Designation of the person
+    company: 'Acme Co', // Company name
+    image: 'https://randomuser.me/api/portraits/women/4.jpg', // Image URL
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+    name: 'Chris Brown', // Name of the person
+    designation: 'COO', // Designation of the person
+    company: 'DEF Corp', // Company name
+    image: 'https://randomuser.me/api/portraits/men/5.jpg', // Image URL
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    name: 'Lisa Wang', // Name of the person
+    designation: 'CTO', // Designation of the person
+    company: '456 Enterprises', // Company name
+    image: 'https://randomuser.me/api/portraits/women/6.jpg', // Image URL
   },
 ];
 
+// Projects the developer has worked on, with name, description, tags (technologies used), image, and source code link
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Car Rent', // Name of the project
     description:
       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: 'react', // Technology used
+        color: 'blue-text-gradient', // Text color for the technology
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: 'mongodb', // Technology used
+        color: 'green-text-gradient', // Text color for the technology
       },
       {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
+        name: 'tailwind', // Technology used
+        color: 'pink-text-gradient', // Text color for the technology
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: carrent, // Image associated with the project
+    source_code_link: 'https://github.com/', // Link to the source code
   },
   {
-    name: 'Job IT',
+    name: 'Job IT', // Name of the project
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: 'react', // Technology used
+        color: 'blue-text-gradient', // Text color for the technology
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: 'restapi', // Technology used
+        color: 'green-text-gradient', // Text color for the technology
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: 'scss', // Technology used
+        color: 'pink-text-gradient', // Text color for the technology
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: jobit, // Image associated with the project
+    source_code_link: 'https://github.com/', // Link to the source code
   },
   {
-    name: 'Trip Guide',
+    name: 'Trip Guide', // Name of the project
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'An app that helps users find travel destinations, hotels, and attractions with information about each, making it easier for tourists to plan their trips.',
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: 'react', // Technology used
+        color: 'blue-text-gradient', // Text color for the technology
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: 'nextjs', // Technology used
+        color: 'green-text-gradient', // Text color for the technology
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: 'tailwind', // Technology used
+        color: 'pink-text-gradient', // Text color for the technology
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: tripguide, // Image associated with the project
+    source_code_link: 'https://github.com/', // Link to the source code
   },
 ];
 

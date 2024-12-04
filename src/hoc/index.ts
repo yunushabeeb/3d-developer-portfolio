@@ -1,3 +1,3 @@
-import SectionWrapper from './SectionWrapper';
+import SectionWrapper from './SectionWrapper'; // Importing the SectionWrapper component
 
-export { SectionWrapper };
+export { SectionWrapper }; // Exporting SectionWrapper for use in other parts of the application
