@@ -2,6 +2,8 @@
 
 A modern and visually stunning developer portfolio designed to showcase projects, technical skills, and experiences. This portfolio integrates 3D elements, animations, and responsive design to create an engaging user experience.
 
+![3d Developer Portfolio](/public/3d.png)
+
 ## 🌟 Features
 
 - **Hero Section**: A captivating introduction with a 3D background.
